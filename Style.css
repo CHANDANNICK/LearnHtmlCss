@@ -1,0 +1,62 @@
+/* #div1{
+    border: 5px dashed #ff6060;
+    border-left: 0px;
+    border-radius: 50px;
+} */
+.bold {
+  font-weight: bold;
+}
+.nounderline {
+  text-decoration: none;
+}
+#background-image-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/pictures/100\ Beautiful\ Ultra\ HD\ 4K\ Wallpapers\ \(60\).jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-size: 100rem; */
+  background-attachment: fixed;
+}
+#div1 {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  background-color: lawngreen;
+  color: red;
+  margin: 10px;
+  padding: 10px;
+}
+#inner-div1 {
+  height: 50%;
+  width: 50%;
+  border-style: solid;
+  background-color: darkviolet;
+  color: black;
+  /* visibility: hidden; */
+}
+#div2 {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  background-color: orangered;
+  color: cyan;
+  margin: 4px;
+}
+
+#display-div1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
+}
+#display-div2 {
+  height: 200px;
+  width: 200px;
+  background-color: cyan;
+  display: inline-block;
+  margin: -4px;
+}
+span {
+  display: block;
+}
